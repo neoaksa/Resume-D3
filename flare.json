@@ -1,0 +1,111 @@
+{
+    "name": "KM Structure",
+    "children": [
+     {
+      "name": "Basic Tools",
+      "children": [
+       {
+        "name": "SQL","size":5000
+       },
+       {
+        "name": "RDatabase","size":5000
+       },
+       {
+        "name": "Datawarehouse","size":5000
+       },
+       {
+        "name": "ETL","size":5000
+       },
+       {
+        "name": "Progamming",
+        "children":[
+            {"name":"Java & C#", "size":5000},
+            {"name":"Javascript", "size":5000},
+            {"name":"PHP", "size":5000},
+            {"name":"Python", "size":5000},
+            {"name":"R*", "size":5000}
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Stats",
+      "children": [
+       {"name": "Univariate", 
+        "children":[ 
+            {"name": "Pie Chart","size": 5000},
+            {"name": "Bar Chart","size": 5000}
+            ]
+        },
+       {"name": "Bivariate", 
+        "children":[ 
+            {"name": "Scatter plot","size": 5000},
+            {"name": "Comb Chart","size": 5000},
+            {"name": "Chi test","size": 5000},
+            {"name": "T test","size": 5000},
+            {"name": "ANOVA","size": 5000}
+            ]
+        },
+       {"name": "Classfication", 
+        "children":[ 
+            {"name": "Naive Bayesian","size": 5000},
+            {"name": "Decision Tree","size": 5000},
+            {"name": "LDA","size": 5000},
+            {"name": "MLR","size": 5000},
+            {"name": "KNN","size": 5000},
+            {"name": "SVM","size": 5000},
+            {"name": "ANN","size": 5000}
+            ]
+        },
+       {"name": "Clustering",
+        "children":[ 
+            {"name": "Hierarchical Clusering","size": 5000},
+            {"name": "K-Means","size": 5000},
+            {"name": "LDA","size": 5000},
+            {"name": "SOM","size": 5000}
+            ]
+        }
+      ]
+     },
+     {
+      "name": "Domain Knowledge",
+      "children": [
+       {
+        "name": "Marketing",
+        "children": [
+         {"name": "Marketing Reserch", "size": 5000},
+         {"name": "Marketing Analysis", "size": 5000}
+        ]
+       },
+       {"name": "Sales", 
+        "children": [
+            {"name": "Salesforce Analysis", "size": 5000},
+            {"name": "Target Allocation", "size": 5000},
+            {"name": "CRM", "size": 5000}
+           ]
+          }
+      ]
+     },
+     {
+      "name": "Visualization Tool",
+      "children": [
+       {"name": "Qlikview", "size": 5000},
+       {"name": "Tableau", "size": 5000},
+       {"name": "D3.js", "size": 5000}
+      ]
+     },
+     {
+      "name": "Project Managment",
+      "children": [
+        {"name": "Requirement Analysis", "size": 5000},
+        {"name": "System Design",  "children": [
+            {"name": "UML", "size": 5000},
+            {"name": "UX Design", "size": 5000},
+            {"name": "Prototype", "size": 5000}
+           ]
+          },
+        {"name": "Agile Project", "size": 5000}
+      ]
+     }
+    ]
+   }
